@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Report</string>
+    <string name="action_view">View</string>
+    <string name="action_update">Update</string>
+    <string name="action_delete_all">Delete All</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_viewAll">View All</string>
+</resources>

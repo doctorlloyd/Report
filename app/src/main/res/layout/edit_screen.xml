@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7A1E"
+    android:gravity="center">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:src="@drawable/logohand"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="4dp"/>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#9B26AF"
+        android:gravity="center">
+
+        <SearchView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:inputType="number"
+            android:id="@+id/searchView"
+            android:queryHint="Search with student no."/>
+
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#7A1EA1"
+            android:gravity="center">
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Name"
+                android:gravity="center"
+                android:enabled="false"
+                android:textColor="@android:color/black"
+                android:padding="16dp"
+                android:id="@+id/etName" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Surname"
+                android:textColor="@android:color/black"
+                android:padding="16dp"
+                android:enabled="false"
+                android:gravity="center"
+                android:id="@+id/etSurname" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:hint="Identity Number"
+                android:enabled="false"
+                android:gravity="center"
+                android:padding="16dp"
+                android:id="@+id/idNo" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:hint="Course"
+                android:enabled="false"
+                android:padding="16dp"
+                android:gravity="center"
+                android:id="@+id/Course" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:textColor="@android:color/black"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:enabled="false"
+                android:hint="Subject1 Mark"
+                android:gravity="center"
+                android:id="@+id/subject1" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:hint="Subject2 Mark"
+                android:enabled="false"
+                android:padding="16dp"
+                android:gravity="center"
+                android:id="@+id/subject2" />
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:enabled="false"
+                android:hint="Subject3 Mark"
+                android:inputType="number"
+                android:padding="16dp"
+                android:gravity="center"
+                android:id="@+id/subject3" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Gender"
+                android:gravity="center"
+                android:enabled="false"
+                android:textColor="@android:color/black"
+                android:padding="16dp"
+                android:id="@+id/etGender" />
+
+            <Button
+                android:text="Update"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/updateStudent" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

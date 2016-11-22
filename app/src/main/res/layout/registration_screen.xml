@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7A1E"
+    android:gravity="center">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:src="@drawable/logohand"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="4dp"/>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#7A1EA1"
+                android:gravity="center">
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Name"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:padding="16dp"
+                    android:id="@+id/etName" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Surname"
+                    android:textColor="@android:color/black"
+                    android:padding="16dp"
+                    android:gravity="center"
+                    android:id="@+id/etSurname" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:hint="Identity Number"
+                    android:inputType="number"
+                    android:gravity="center"
+                    android:padding="16dp"
+                    android:id="@+id/idNo" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:hint="Course"
+                    android:inputType="textAutoComplete"
+                    android:padding="16dp"
+                    android:gravity="center"
+                    android:id="@+id/Course" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:padding="16dp"
+                    android:hint="Subject1 Mark"
+                    android:gravity="center"
+                    android:id="@+id/subject1" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:inputType="number"
+                    android:hint="Subject2 Mark"
+                    android:padding="16dp"
+                    android:gravity="center"
+                    android:id="@+id/subject2" />
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:inputType="number"
+                    android:hint="Subject3 Mark"
+                    android:padding="16dp"
+                    android:gravity="center"
+                    android:id="@+id/subject3" />
+
+                <Spinner
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:gravity="center"
+                    android:padding="16dp"
+                    android:id="@+id/spGender" />
+
+                <Button
+                    android:text="Register"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/adminRegister" />
+            </LinearLayout>
+        </ScrollView>
+</LinearLayout>
